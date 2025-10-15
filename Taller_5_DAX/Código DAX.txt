@@ -1,0 +1,52 @@
+Fechas Sistema = CALENDAR(MIN('Maestro Prestamos'[Fecha_Prestamo]), MAX('Detalle Prestamos'[Fecha Devolución])
+)
+
+Día = DAY('Fechas Sistema'[Fecha_Préstamo])
+
+Mes = MONTH('Fechas Sistema'[Fecha_Préstamo])
+
+Año = YEAR('Fechas Sistema'[Fecha_Préstamo])
+
+Nombre Mes = FORMAT('Fechas Sistema'[Fecha_Préstamo],"MMMM")
+
+Trimestre = "Trim " & QUARTER('Fechas Sistema'[Fecha_Préstamo])
+
+Nacionalidad Completa = IF(ISBLANK(Autores[Nacionalidad]), "SIN NACIONALIDAD", Autores[Nacionalidad])
+
+Nacionalidad Completa = 
+IF(
+    OR(ISBLANK('Autores'[Nacionalidad]), LEN(TRIM('Autores'[Nacionalidad])) = 0), 
+    "SIN REGISTRO NACIONALIDAD", 
+    'Autores'[Nacionalidad]
+)
+
+Autor Libro = RELATED(Autores[Autor])
+
+Título Libro = RELATED(Libros[Titulo])
+
+Nombre Socio = UPPER(RELATED(Socios[Apellido Paterno]) & " " & RELATED(Socios[Apellido Materno]) & " " & RELATED(Socios[Nombres]))
+
+Valor Préstamo = 
+IF(OR('Detalle Prestamos'[Días prestamo] = 2, 'Detalle Prestamos'[Días prestamo] = 3),
+   'Detalle Prestamos'[Días prestamo] * 1000, 
+   'Detalle Prestamos'[Días prestamo] * 1500)
+
+c
+
+Datos Socio Moroso = IF('Detalle Prestamos'[Préstamos Vencidos] = "LLAMAR A SOCIO" , 'Detalle Prestamos'[Nombre Socio] & " " & RELATED(Socios[Fono]), BLANK())
+
+Nombre Libro = LOWER(RELATED(Autores[Autor]))
+
+Tamaño Libro = IF(Libros[Paginas] < 300, "Pequeño", IF(Libros[Paginas] > 600, "Grande", "Normal"))
+
+MEDIDAS = {"Medidas"}
+
+Total Préstamos = SUM('Detalle Prestamos'[Valor Préstamo])
+Promedio Préstamos = AVERAGE('Detalle Prestamos'[Valor Préstamo])
+Cantidad Préstamos = DISTINCTCOUNT('Detalle Prestamos'[Id_Prestamo])
+No Devueltos = COUNTROWS(FILTER('Detalle Prestamos', ISBLANK('Detalle Prestamos'[Fecha Devolución])))
+
+Cantidad Libros = COUNTROWS('Libros')
+Libros con más Copias = MAX('Libros'[Copias])
+Libros con menos Copias = MIN('Libros'[Copias])
+Cantidad Autores = COUNTROWS('Autores')

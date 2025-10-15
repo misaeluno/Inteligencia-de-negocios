@@ -1,0 +1,109 @@
+;Clientes;;;;;
+;Cliente;Tipo;Area1;Area2;Teléfono;Ubicación
+1;Adams, Fernando;Persona;Gerencia;Fundición;373846615; Miami, Estados Unidos 
+2;Adams, Wyatt;Persona;Departamento;Servicios;646775929; Madrid, España 
+3;Alonso, Julio;Persona;Gerencia;Fundición;667028591; Buenos Aires, Argentina 
+4;Ana, Maria;Persona;Departamento;Servicios;707344341; Córdoba, Argentina 
+5;Anderson, Nicholas;Persona;Gerencia;Plantas;743415512; La Paz, Bolivia 
+6;Arthur, Jermaine;Persona;Departamento;Servicios;806106230; Maracaibo, Venezuela 
+7;Bailey, Angel;Persona;Gerencia;Minas;589416549; Montevideo, Uruguay 
+8;Baileya, Angela;Persona;Departamento;Servicios;209739312; Medellín, Colombia 
+9;Bebbington, Mark;Persona;Departamento;Servicios;738959030; Ciudad de Guatemala, Guatemala 
+10;Boulder Cnia;Empresa;Gerencia;Minas;396674800; Trujillo, Perú 
+11;Bryant, Seth;Persona;Departamento;Servicios;765493328; Valencia, Venezuela 
+12;Buffalo Cnia;Empresa;Gerencia;Minas;314800578; Río de Janeiro, Brasil 
+13;Burbank Cnia;Empresa;Gerencia;Fundición;180874224; Santiago, Chile 
+14;Canoga Parque;Empresa;Departamento;Proyectos;230328451; Caracas, Venezuela 
+15;Charles Cnia;Empresa;Gerencia;Fundición;481100318; Miami, Estados Unidos 
+16;Charleston Cnia;Empresa;Departamento;Proyectos;195780528; Montevideo, Uruguay 
+17;Chen, Dylan;Empresa;Departamento;Servicios;209751676; La Habana, Cuba 
+18;Coffs Harbour Cnia;Empresa;Departamento;Servicios;202735528; Puebla, México 
+19;Coleman, James;Persona;Departamento;Servicios;195511040; Caracas, Venezuela 
+20;Congo Mongo Estudio;Empresa;Departamento;Servicios;727374976; Guadalajara, México 
+21;Corda Empresa de Correos;Empresa;Gerencia;Fundición;543323111; Barranquilla, Colombia 
+22;Dallas Producciones;Empresa;Departamento;Servicios;697211619; Barcelona, España 
+23;Davis, John;Persona;Departamento;Servicios;590199780; Barcelona, España 
+24;Diaz, Byron;Persona;Departamento;Proyectos;434211154; Tegucigalpa, Honduras 
+25;Diaz, Gabriel;Persona;Gerencia;Recursos;656008264; Medellín, Colombia 
+26;Edwards, Nathan;Persona;Departamento;Servicios;558112040; Barcelona, España 
+27;Englewood Cnia;Empresa;Gerencia;Minas;833593115; Valencia, España 
+28;Evans, Devin;Persona;Departamento;Proyectos;446730339; Río de Janeiro, Brasil 
+29;Evans, Noah;Persona;Departamento;Proyectos;452804313; Guadalajara, México 
+30;Falmouth Cnia;Empresa;Gerencia;Minas;665581108; Monterrey, México 
+31;Fiorilo Transportes y Correo;Empresa;Departamento;Control;465789765; Los Angeles, Estados Unidos 
+32;Gao, Ronnie;Persona;Gerencia;Fundición;442954865; Buenos Aires, Argentina 
+33;Garcia, James;Persona;Gerencia;Minas;440495846; San José, Costa Rica 
+34;Geelong Cnia;Empresa;Gerencia;Minas;734079959; Santo Domingo, República Dominicana 
+35;Gold Coast Accesorios;Empresa;Gerencia;Minas;858418641; Bogotá, Colombia 
+36;Gonzales, Caleb;Persona;Departamento;Servicios;624637112; Quito, Ecuador 
+37;Gray, Isaiah;Persona;Departamento;Servicios;671694387; Guayaquil, Ecuador 
+38;Green, James;Persona;Gerencia;Minas;351869587; Quito, Ecuador 
+39;Greenville Cnia;Empresa;Departamento;Control;603746260; Valencia, Venezuela 
+40;Griffin, Kyle;Persona;Gerencia;Plantas;317279040; Miami, Estados Unidos 
+41;Griffin, Zachary;Persona;Gerencia;Plantas;839101853; Puebla, México 
+42;Grupo 3 Estudio de Abogados;Empresa;Departamento;Desarrollo;772795496; La Habana, Cuba 
+43;Grupo Ases;Empresa;Gerencia;Minas;370845396; Ciudad de Guatemala, Guatemala 
+44;Hernandez, Micheal;Persona;Gerencia;Fundición;836211885; La Paz, Bolivia 
+45;Hill, Lucas;Persona;Gerencia;Plantas;406578173; Monterrey, México 
+46;Holyoke Producciones;Empresa;Gerencia;Fundición;852769732; Córdoba, Argentina 
+47;Jackson, Nicholas;Persona;Gerencia;Fundición;707614386; Barranquilla, Colombia 
+48;Jackson, Noah;Persona;Departamento;Desarrollo;771116619; Santiago de Cali, Colombia 
+49;Johnson, Austin;Persona;Gerencia;Minas;617720204; Ciudad de México, México 
+50;Johnson, Benjamin;Persona;Gerencia;Minas;787521287; Montevideo, Uruguay 
+51;Johnson, Dalton;Persona;Gerencia;Minas;599037926; Managua, Nicaragua 
+52;Jota Cnia;Empresa;Departamento;Servicios;339269938; Toluca, México 
+53;Kelly, Chase;Persona;Departamento;Servicios;258257412; Monterrey, México 
+54;Kiela Cnia;Empresa;Gerencia;Fundición;231153346; Sevilla, España 
+55;Kolkata Cnia;Empresa;Gerencia;Minas;534865861; San Salvador, El Salvador 
+56;Kumar, Kevin;Persona;Departamento;Servicios;757707873; Caracas, Venezuela 
+57;Kumar, Leonard;Persona;Gerencia;Minas;242567926; Managua, Nicaragua 
+58;Lake Oswego Cnia;Empresa;Gerencia;Minas;522150339; Medellín, Colombia 
+59;Lancaster Vestimenta;Empresa;Gerencia;Plantas;510329136; Buenos Aires, Argentina 
+60;Leo Seguros;Empresa;Gerencia;Minas;371310230; Guayaquil, Ecuador 
+61;Lewis, Charles;Persona;Departamento;Proyectos;820869845; Ciudad de Guatemala, Guatemala 
+62;Liu, Louis;Persona;Gerencia;Minas;815744830; La Habana, Cuba 
+63;Longview Cnia;Empresa;Departamento;Servicios;602575964; San Juan, Puerto Rico 
+64;Lopez, Blake;Persona;Gerencia;Plantas;405976270; Santiago, Chile 
+65;Madridia Cnia;Empresa;Gerencia;Plantas;528674787; Tegucigalpa, Honduras 
+66;Martinez, Marco;Persona;Departamento;Proyectos;762462667; Los Angeles, Estados Unidos 
+67;Miller, Seth;Persona;Gerencia;Fundición;577563397; Lima, Perú 
+68;Mitchell, Connor;Persona;Gerencia;Riesgo,;604085596; São Paulo, Brasil 
+69;Mitchell, Marcus;Persona;Gerencia;Plantas;693724543; Sevilla, España 
+70;Morgan, Brian;Persona;Gerencia;Minas;772069253; Bogotá, Colombia 
+71;Morris, Devin;Persona;Departamento;Servicios;570083840; Guadalajara, México 
+72;Morris, Timothy;Persona;Gerencia;Minas;840955365; Los Angeles, Estados Unidos 
+73;Oleagi Agropecuaria;Empresa;Departamento;Proyectos;201839058; La Paz, Bolivia 
+74;Oregon Cnia;Empresa;Gerencia;Plantas;588289798; Santiago de Cali, Colombia 
+75;Orlando Cnia;Empresa;Gerencia;Minas;458287489; Asunción, Paraguay 
+76;Ortega, Marvin;Persona;Departamento;Servicios;261853276; Bogotá, Colombia 
+77;Pal, Ricardo;Persona;Gerencia;Plantas;207566479; Santo Domingo, República Dominicana 
+78;Paris Cnia;Empresa;Gerencia;Riesgo,;558593161; New York, Estados Unidos 
+79;Perez, Jeremy;Persona;Departamento;Servicios;742873352; New York, Estados Unidos 
+80;Ramos, Dwayne;Persona;Gerencia;General;520366451; Guayaquil, Ecuador 
+81;Reed, Richard;Persona;Departamento;Proyectos;377622755; Barranquilla, Colombia 
+82;Richardson, Juan;Persona;Gerencia;Minas;705774082; Toluca, México 
+83;Rivera, Adrian;Persona;Departamento;Control;224254096; Madrid, España 
+84;Rochester Cnia;Empresa;Departamento;Proyectos;433705870; Quito, Ecuador 
+85;Rodolfo, Chavez;Persona;Gerencia;Minas;823100402; Maracaibo, Venezuela 
+86;Rodriguez, Thomas;Persona;Departamento;Servicios;854879196; Ciudad de México, México 
+87;Ross, Christian;Persona;Departamento;Servicios;459974134; Puebla, México 
+88;Round Ventures;Empresa;Gerencia;Minas;231325847; Ciudad de México, México 
+89;Sanchez, Eduardo;Persona;Gerencia;Fundición;427898518; New York, Estados Unidos 
+90;Sanchez, Ian;Persona;Gerencia;Fundición;249823182; Trujillo, Perú 
+91;Semillas Santo Mongo;Empresa;Departamento;Proyectos;395455609; Lima, Perú 
+92;Sharma, Ethan;Persona;Departamento;Servicios;574302082; San Salvador, El Salvador 
+93;Smith, Jonathan;Persona;Gerencia;Minas;441824686; Valencia, España 
+94;Smith, Julio;Persona;Gerencia;Minas;722722460; Santa Cruz de la Sierra, Bolivia 
+95;South Portland Cnia;Empresa;Departamento;Proyectos;644230146; Managua, Nicaragua 
+96;Sunbury Cnia;Empresa;Departamento;Servicios;225770681; São Paulo, Brasil 
+97;Torres, Isaiah;Persona;Departamento;Proyectos;586851024; Lima, Perú 
+98;Transportes Pampa;Empresa;Departamento;Proyectos;397375640; Asunción, Paraguay 
+99;Trenton Cnia;Empresa;Gerencia;Minas;805211764; San José, Costa Rica 
+100;Turner, Richard;Persona;Departamento;Proyectos;284736113; Asunción, Paraguay 
+101;Victoria Cnia;Empresa;Gerencia;Minas;694310799; Maracaibo, Venezuela 
+102;Viga Ingenieros;Empresa;Gerencia;Minas;255869094; Madrid, España 
+103;Wapato Cnia;Empresa;Gerencia;Minas;501853861; Santa Cruz de la Sierra, Bolivia 
+104;Ward, Jeremy;Persona;Gerencia;Fundición;281797334; Córdoba, Argentina 
+105;Washington, Jack;Persona;Gerencia;Riesgo,;490574837; Río de Janeiro, Brasil 
+106;Washington, Jose;Persona;Departamento;Proyectos;342142162; San Juan, Puerto Rico 
+107;Zeng, Omar;Persona;Departamento;Desarrollo;256950849; San José, Costa Rica 
